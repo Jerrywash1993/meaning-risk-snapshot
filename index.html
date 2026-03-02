@@ -8,9 +8,25 @@
     <meta property="og:title" content="The Meaning Risk Snapshot — What Time Binds" />
     <meta property="og:description" content="Where is meaning failing on your team right now? Take this 5-minute diagnostic and find out." />
     <meta property="og:type" content="website" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⏳</text></svg>" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⌛</text></svg>" />
   </head>
   <body>
+    <!-- Hidden Netlify Form for submission detection -->
+    <form name="snapshot-completion" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="bot-field" />
+      <input type="email" name="email" />
+      <input type="text" name="overallRisk" />
+      <input type="text" name="topRisk1" />
+      <input type="text" name="topRisk1Score" />
+      <input type="text" name="topRisk2" />
+      <input type="text" name="topRisk2Score" />
+      <input type="text" name="allScores" />
+      <input type="text" name="preferences" />
+      <input type="text" name="role" />
+      <input type="text" name="teamSize" />
+      <input type="text" name="industry" />
+      <input type="text" name="setting" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
